@@ -1,4 +1,4 @@
-```md
+
 # Processo de Alteração de Condição de Pagamento para o FoccoERP
 
 Este processo foi desenvolvido para o sistema FoccoERP com o objetivo de alterar automaticamente a condição de pagamento no cadastro dos fornecedores em meses com 31 dias. O processo é composto por uma tabela de log, uma sequência e uma procedure que realiza as alterações necessárias.
@@ -9,6 +9,7 @@ Este processo foi desenvolvido para o sistema FoccoERP com o objetivo de alterar
 A tabela `TLOG_COND_PAGTO` é utilizada para registrar todas as alterações realizadas na condição de pagamento, bem como eventuais erros ocorridos durante o processo.
 
 **Estrutura da Tabela:**
+
 ```sql
 CREATE TABLE TLOG_COND_PAGTO (
     ID NUMBER PRIMARY KEY,
